@@ -13,24 +13,32 @@ const ChatbotSection = () => {
 
   const faqs = [
     {
-      question: "Quais são os recursos do Galaxy AI?",
-      answer: "O Galaxy AI oferece recursos avançados como tradução instantânea, assistente de escrita, edição inteligente de fotos e muito mais para revolucionar sua experiência mobile."
+      question: "What is Galaxy AI?",
+      answer: "Galaxy AI is Samsung's intelligent assistant that helps with translation, image editing, note summarization, and productivity tools across Galaxy devices. It's designed to make your daily tasks easier and more intuitive."
     },
     {
-      question: "Como funciona a garantia dos produtos Samsung?",
-      answer: "Todos os produtos Samsung vêm com garantia oficial de 1 ano. Oferecemos suporte técnico completo e rede de assistência técnica autorizada em todo o Brasil."
+      question: "How can I buy a Galaxy Z Fold7 online?",
+      answer: "You can purchase the Galaxy Z Fold7 directly on our website by clicking Comprar on the product page. We offer secure payment options, fast shipping, and financing plans."
     },
     {
-      question: "Posso trocar meu produto por um modelo mais recente?",
-      answer: "Sim! Temos programas de trade-in que permitem trocar seu dispositivo atual por crédito na compra de um novo produto Samsung."
+      question: "Do Samsung devices come with warranty?",
+      answer: "Yes. All Samsung products include a 2-year manufacturer warranty covering manufacturing defects. Extended warranty and Samsung Care+ options are also available at checkout."
     },
     {
-      question: "Quais formas de pagamento são aceitas?",
-      answer: "Aceitamos cartão de crédito, débito, PIX, boleto bancário e parcelamento em até 12x sem juros para produtos selecionados."
+      question: "How can I track my order?",
+      answer: "To track your order: Go to My Account > Orders, Enter your order number and email, View live shipping updates. You'll also receive tracking emails once your order ships."
     },
     {
-      question: "Como acompanhar meu pedido?",
-      answer: "Você pode acompanhar seu pedido através da área do cliente no site ou pelo e-mail de confirmação com o código de rastreamento."
+      question: "What payment methods are accepted?",
+      answer: "We accept: Credit/Debit Cards (Visa, MasterCard, American Express), PayPal, Samsung Financing options, Local bank transfers (where available)."
+    },
+    {
+      question: "How do I connect my Galaxy Watch to my phone?",
+      answer: "To pair your Galaxy Watch: Install the Samsung Wearable App on your phone, Turn on your Galaxy Watch, Open the app and select your watch, Follow the on-screen pairing instructions."
+    },
+    {
+      question: "Can I return a product if I'm not satisfied?",
+      answer: "Yes. You can return products within 14 days of delivery as long as they are in original condition and packaging. Refunds will be issued to your original payment method."
     }
   ];
 
@@ -99,9 +107,9 @@ const ChatbotSection = () => {
               {showChat && (
                 <div className="bg-muted/50 rounded-xl p-4 animate-fade-in">
                   <p className="text-sm text-muted-foreground mb-4">
-                    🤖 <strong>Assistente Samsung:</strong> Olá! Sou seu assistente virtual. 
-                    Como posso ajudá-lo hoje? Use o widget de chat no canto inferior direito 
-                    da tela para uma experiência completa.
+                    🤖 <strong>Samsung AI Assistant:</strong> Hello! I'm your virtual assistant. 
+                    How can I help you today? Use the chat widget in the bottom-right corner 
+                    of the screen for a complete experience.
                   </p>
                   <div className="text-xs text-muted-foreground">
                     <p>Powered by Retell AI • Agent ID: agent_f5e2acc18f6b1d82dcdcf211f3</p>

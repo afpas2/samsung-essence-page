@@ -4,7 +4,6 @@ import ProductsSection from "@/components/ProductsSection";
 import TVHighlightSection from "@/components/TVHighlightSection";
 import BespokeAISection from "@/components/BespokeAISection";
 import ChatbotSection from "@/components/ChatbotSection";
-import ChatbotWidget from "@/components/ChatbotWidget";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -19,7 +18,7 @@ const Index = () => {
         <ChatbotSection />
       </main>
       <Footer />
-      <ChatbotWidget />
+      {/* Retell AI widget is now embedded via script tag in index.html */}
     </div>
   );
 };
