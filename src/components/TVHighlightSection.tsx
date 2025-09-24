@@ -3,23 +3,23 @@ import tvImage from "@/assets/samsung-tv-highlight.jpg";
 
 const TVHighlightSection = () => {
   return (
-    <section className="bg-gray-50 py-16 lg:py-24">
+    <section className="bg-muted py-16 lg:py-24 transition-colors duration-300">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6">
-            <h2 className="section-title text-samsung-black">
-              Experiência Visual Revolucionária
+            <h2 className="section-title text-foreground">
+              Revolutionary Visual Experience
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Descubra a nova era da televisão com tecnologia QLED 8K e 
-              inteligência artificial integrada para uma experiência única.
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Discover the new era of television with QLED 8K technology and 
+              integrated artificial intelligence for a unique experience.
             </p>
             <Button 
               size="lg"
-              className="bg-samsung-black text-white hover:bg-gray-800 rounded-[25px] px-8 py-3 font-semibold transition-all duration-200"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-[25px] px-8 py-3 font-semibold transition-all duration-200"
             >
-              Explorar TVs
+              Explore TVs
             </Button>
           </div>
 

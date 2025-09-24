@@ -1,14 +1,14 @@
 const Footer = () => {
   const footerLinks = [
-    "Suporte",
-    "Contato", 
-    "Política de Privacidade",
-    "Termos de Uso",
-    "Sustentabilidade"
+    "Support",
+    "Contact", 
+    "Privacy Policy",
+    "Terms of Use",
+    "Sustainability"
   ];
 
   return (
-    <footer className="bg-gray-50 py-12">
+    <footer className="bg-muted py-12 transition-colors duration-300">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="text-center space-y-6">
           {/* Footer Navigation */}
@@ -17,7 +17,7 @@ const Footer = () => {
               <a
                 key={link}
                 href="#"
-                className="text-gray-500 hover:text-samsung-black text-sm font-medium transition-colors duration-200"
+                className="text-muted-foreground hover:text-foreground text-sm font-medium transition-colors duration-200"
               >
                 {link}
               </a>
@@ -25,9 +25,9 @@ const Footer = () => {
           </nav>
 
           {/* Copyright */}
-          <div className="border-t border-gray-200 pt-6">
-            <p className="text-gray-400 text-sm">
-              © 2025 Samsung Inspired Landing Page. Todos os direitos reservados.
+          <div className="border-t border-border pt-6">
+            <p className="text-muted-foreground text-sm">
+              © 2025 Samsung Inspired Landing Page. All rights reserved.
             </p>
           </div>
         </div>

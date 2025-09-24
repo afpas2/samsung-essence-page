@@ -18,7 +18,7 @@ const ChatbotSection = () => {
     },
     {
       question: "How can I buy a Galaxy Z Fold7 online?",
-      answer: "You can purchase the Galaxy Z Fold7 directly on our website by clicking Comprar on the product page. We offer secure payment options, fast shipping, and financing plans."
+      answer: "You can purchase the Galaxy Z Fold7 directly on our website by clicking 'Buy Now' on the product page. We offer secure payment options, fast shipping, and financing plans."
     },
     {
       question: "Do Samsung devices come with warranty?",
@@ -50,10 +50,10 @@ const ChatbotSection = () => {
             <MessageCircle className="h-8 w-8 text-accent" />
           </div>
           <h2 className="section-title text-foreground mb-4">
-            Perguntas Frequentes
+            Frequently Asked Questions
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Encontre respostas rápidas para as dúvidas mais comuns ou converse com nosso assistente AI
+            Find quick answers to the most common questions or chat with our AI assistant
           </p>
         </div>
 
@@ -83,10 +83,10 @@ const ChatbotSection = () => {
             <div className="bg-card border border-card-border rounded-2xl p-6">
               <div className="mb-4">
                 <h3 className="text-xl font-semibold text-card-foreground mb-2">
-                  Não encontrou sua resposta?
+                  Didn't find your answer?
                 </h3>
                 <p className="text-muted-foreground">
-                  Converse com nosso assistente AI para obter ajuda personalizada
+                  Chat with our AI assistant for personalized help
                 </p>
               </div>
               
@@ -96,7 +96,7 @@ const ChatbotSection = () => {
                 size="lg"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
-                {showChat ? 'Fechar Chat' : 'Iniciar Conversa'}
+                {showChat ? 'Close Chat' : 'Start Conversation'}
                 {showChat ? (
                   <ChevronUp className="ml-2 h-4 w-4" />
                 ) : (

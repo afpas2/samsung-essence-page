@@ -14,28 +14,28 @@ const ProductsSection = () => {
     {
       image: galaxyZFlip7,
       title: "Galaxy Z Flip7", 
-      subtitle: "Design dobrável inovador",
+      subtitle: "Innovative foldable design",
       alt: "Samsung Galaxy Z Flip7 foldable smartphone"
     },
     {
       image: galaxyWatch8,
       title: "Galaxy Watch8",
-      subtitle: "Estilo e saúde no pulso",
+      subtitle: "Style and health on your wrist",
       alt: "Samsung Galaxy Watch8 smartwatch"
     }
   ];
 
   return (
-    <section className="bg-white py-16 lg:py-24">
+    <section className="bg-background py-16 lg:py-24 transition-colors duration-300">
       <div className="container mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="section-title text-samsung-black mb-4">
-            Explore Nossa Linha Galaxy
+          <h2 className="section-title text-foreground mb-4">
+            Explore Our Galaxy Lineup
           </h2>
-          <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Descubra os mais recentes dispositivos Galaxy com tecnologia de ponta 
-            e recursos de inteligência artificial integrados.
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Discover the latest Galaxy devices with cutting-edge technology 
+            and integrated artificial intelligence features.
           </p>
         </div>
 
